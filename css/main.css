@@ -27,12 +27,13 @@ p {
 
 
 .section1 {
-    width: 1520px;
+    
     height: 961px;
     margin-left: auto;
     background-repeat: no-repeat;
     margin-right: auto;
     background-image: url(../images/1.bg-image.png);
+    background-size: cover;
 
 }
 
