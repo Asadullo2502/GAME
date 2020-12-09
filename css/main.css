@@ -270,7 +270,7 @@ a {
 
 
 .section2 {
-    width: 1520px;
+    
     height: 961px;
     margin-left: auto;
     margin-right: auto;
@@ -458,7 +458,20 @@ a {
     display: block;
     justify-content: start;
     margin-top: 50px;
+    position: relative;
+    
 }
+
+.s3-2::before {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 170px;
+    background-color: #FFFFFF;
+    left: -44.5px;
+    top: 23px;
+}
+
 
 
 
@@ -469,22 +482,62 @@ a {
     font-size: 36px;
     line-height: 36px;
     margin-top: 40px;
-
+    position: relative;
     letter-spacing: 2px;
     color: #FFB548;
+    display: flex;
+    align-items: center;
 }
 
+.s3-2 h3:hover::before {
+    background-color: #FFFFFF;
+    transition: all ease 0.5s;
+}
+
+
+.s3-2 h3::before {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border: 1px solid #FFFFFF;
+    border-radius: 50%;
+    left: -50px;
+}
+
+
+
 .s3-3 h3 {
-    font-family: Bebas Neue;
+    font-family: 'Bebas Neue';
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
     line-height: 36px;
     margin-top: 40px;
-
+    display: flex;
+    align-items: center;
     letter-spacing: 2px;
     color: #FFB548;
+    position: relative;
 }
+
+.s3-3 h3::before {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border: 1px solid #FFFFFF;
+    border-radius: 50%;
+    left: -50px;
+    
+}
+
+.s3-3 h3:hover::before {
+    background-color: #FFFFFF;
+    transition: all ease 0.5s;
+
+}
+
 
 
 .s3-2 p {
@@ -501,7 +554,7 @@ a {
 }
 
 .section4 {
-    width: 1520px;
+    
     margin-left: auto;
     margin-right: auto;
     background-image: radial-gradient(33.26% 45% at 64.32% 47.1%, rgba(255, 255, 255, 0) 3.36%, rgba(0, 0, 0, 0) 19.22%, #080A0B 99.74%), url(../images/bg\ image\ 4.png);
@@ -620,7 +673,7 @@ a {
 
 
 .section5 {
-    width: 1520px;
+    
     margin-left: auto;
     margin-right: auto;
     background: radial-gradient(70.52% 37.27% at 24.21% 47.47%, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 51.1%, #080A0B 99.74%),
@@ -807,7 +860,7 @@ a {
 
 
 .section6 {
-    width: 1520px;
+    
     height: 960px;
     margin-left: auto;
     margin-right: auto;
